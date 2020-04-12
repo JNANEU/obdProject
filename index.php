@@ -23,7 +23,7 @@
         </div>
     </header>
 
-   /**/
+   /*wrapper block new*/
     <div id="wrapper">
         /*we try to make web site*/
         <div id="leftCol">
