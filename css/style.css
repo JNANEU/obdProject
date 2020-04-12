@@ -16,9 +16,7 @@ body{
     font-family: "Segoe UI", Arial, sans-serif;
     font-size: 1em;
     line-height: 135%;
-	<?php
-	echo '<h1> HELLO, WORLD </h1>'
-	?>
+
 }
 
 img{
