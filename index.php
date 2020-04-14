@@ -2,9 +2,6 @@
 <html>
 <head>
     <meta charset = "utf-8">
-	<?php
-	echo '<h1> HELLO, WORLD </h1>'
-	?>
     <title>Проект по ОБД</title>
     <link href="/css/style.css" rel="stylesheet" type="text/css">
 </head>
