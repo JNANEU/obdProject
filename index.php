@@ -1,55 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset = "utf-8">
-    <title>Проект по ОБД</title>
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <?php 
+    $title = "Новосты обо всём";
+    require_once "blocks/head.php" 
+    ?>
 </head>
 <body>
-    <header>
-        <div id = "logo">
-            <a href="/" title="Перейти на главную"><span>Г</span>лавная</a>
-        </div>
-        <div id = "menuHead">
-            <a href="/about.php">
-                <div style="margin-right:5%;">О нас</div>
-            </a>
-            <a href="/feedback.php">
-                <div>Обратная связь</div>
-            </a>
-        </div>
-        <div id = "regAuth">
-            <a href="reg.php">Регистрация</a> | <a href="auth.php">Авторизация</a>
-        </div>
-    </header>
-
-   
+    <?php require_once "blocks/header.php" ?>
     <div id="wrapper">
-        /*we try to make web site*/
         <div id="leftCol">
             <div id="bigArticle">
+                <img src="/img/article_1.jpg" alt="Статья 1" title="Статья 1">
+                <h2>Статья 1</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, 
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged. It was popularised in the 1960s with 
+                    the release of Letraset sheets containing Lorem Ipsum passages, 
+                    and more recently with desktop publishing software like Aldus
+                     PageMaker including versions of Lorem Ipsum.</p>
+                <a href="/article.php"><div class="more">Далее</div></a>
             </div>
-            <div id="clear"></div>
+            <div id="clear"><br></div>
             <div class="article">
-                
+            <img src="/img/article_1.jpg" alt="Статья 1" title="Статья 1">
+                <h2>Статья 1</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, 
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged.</p>
+                <a href="/article.php"><div class="more">Далее</div></a>
+            </div>
+            <div class="article">
+            <img src="/img/article_1.jpg" alt="Статья 1" title="Статья 1">
+                <h2>Статья 1</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, 
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged. </p>
+                <a href="/article.php"><div class="more">Далее</div></a>
+            </div>
+            <div class="article">
+            <img src="/img/article_1.jpg" alt="Статья 1" title="Статья 1">
+                <h2>Статья 1</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500s, when an unknown 
+                    printer took a galley of type and scrambled it to make a type 
+                    specimen book. It has survived not only five centuries, 
+                    but also the leap into electronic typesetting, remaining 
+                    essentially unchanged. </p>
+                <a href="/article.php"><div class="more">Далее</div></a>
             </div>
         </div>
-        <div id="rightCol">
-            <div class="banner">
-                <img src="/img/banner_1.jpg" alt="Баннер 1" title="Баннер 1">
-            </div>
-            <div class="banner">
-                <img src="/img/banner_2.jpg" alt="Баннер 2" title="Баннер 2">
-            </div>
-        </div>
+        <?php require_once "blocks/rightCol.php" ?>
     </div>
-    <footer>
-        <div id="social">
-
-        </div>
-        <div id="rights">
-            Проект студентов группы КИ-182 Луцького Д.О. и Коробки А.Г. &copy; <?=date('Y')?>
-        </div>
-    </footer>
+    <?php require_once "blocks/footer.php" ?>
 </body>
 </html>
