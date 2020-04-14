@@ -8,11 +8,11 @@
 <body>
     <header>
         <div id = "logo">
-            <a href="/" title="Перейти на главную"><span>Г</span>лавная</a>
+            <a href="/" title="Перейти на главную"><span>Н</span>ОВОСТИ</a>
         </div>
         <div id = "menuHead">
             <a href="/about.php">
-                <div style="margin-right:5%;">О нас</div>
+                <div style="margin-right:8%;">О нас</div>
             </a>
             <a href="/feedback.php">
                 <div>Обратная связь</div>
@@ -22,6 +22,7 @@
             <a href="reg.php">Регистрация</a> | <a href="auth.php">Авторизация</a>
         </div>
     </header>
+	
 
    
     <div id="wrapper">
@@ -45,9 +46,12 @@
     </div>
     <footer>
         <div id="social">
-
+			<a href="https://t.me/projectOBD" title="Группа Telegram" target="_blank">
+				<img src="/img/telegram.png" alt="Telegram" title="Telegram">
+				</a>
         </div>
         <div id="rights">
+	
             Проект студентов группы КИ-182 Луцького Д.О. и Коробки А.Г. &copy; <?=date('Y')?>
         </div>
     </footer>
