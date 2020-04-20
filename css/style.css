@@ -210,9 +210,16 @@ header #regAuth{
 #wrapper #rightCol .banner{
     width: 100%;
     float: left;
+    padding-left:26%;
     margin-bottom: 20px;
     border: 2px solid silver;
     box-sizing: border-box;
+}
+
+#wrapper #rightCol .banner p{
+    margin:auto;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.2EM;
 }
 /*About us styles*/
 
@@ -245,4 +252,92 @@ footer #rights{
     width: 50%;
     text-align:right;
     font-size: 1.1em;
+}
+
+/*Reg site styles*/
+
+#wrapper #regAuthForm{
+    width: 60%;
+    margin-right: 10%;
+    float: left;
+}
+
+#wrapper #regAuthForm input{
+    width: 40%;
+    border-radius: 5%;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    float:left;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding:5px;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.2EM;
+}
+
+#wrapper #regAuthForm label, #wrapper #propose{
+    margin-left:35%;
+}
+
+#regAuth #avatar p{
+    margin-bottom: 1%;
+    margin-right:2%;
+    float:left;
+}
+
+#regAuth #avatar img{
+    float:right;
+    border-radius: 15%;
+    border: solid 2px silver;
+}
+
+#wrapper #logged{
+    width:70%;
+    float:left;
+}
+
+#wrapper #logged p{
+    font-size: 2EM;
+}
+
+#wrapper #leftCol .more{
+    margin-left: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #878787;
+    color: #fff;
+    width:30%;
+    text-align: center;
+    margin-top: 10px;   
+}
+
+
+#wrapper #addArticleForm input{
+    width: 60%;
+    border-radius: 5%;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    float:left;
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding:5px;
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.2EM;
+}
+
+#wrapper #addArticleForm label, #wrapper #propose{
+    margin-left:20%;
+}
+
+#wrapper #leftCol #userRow{
+    width:100%;
+    border:2px solid silver;
+    text-align: center;
+}
+
+#wrapper #leftCol #userRow p{
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 1.2EM;
 }

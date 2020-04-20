@@ -1,5 +1,5 @@
 <?php
-    require_once "functions/functions.php"
+    session_start();
 ?>
 <meta charset = "utf-8">
     <title><?=$title ?></title>
