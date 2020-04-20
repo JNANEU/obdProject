@@ -44,7 +44,7 @@ if    (!empty($_SESSION['login']) and !empty($_SESSION['id']))
                     echo '<a href="reg.php">Регистрация</a> | <a href="auth.php">Авторизация</a>';
                 }
                 else{
-                echo "<div id=\"avatar\"><p>Приветствуем вас, ".$_SESSION['login']." </p> |
+                echo "<div id=\"avatar\"><p>Приветствуем вас, ".$_SESSION['login']." </p> 
                 <p><a href = \"functions/exit.php\">Выход</a></p>
                 <img src=".$myrow['avatar']." name=\"new\" alt = \"new\" width=\"50\" height=\"50\">
                 </div>";

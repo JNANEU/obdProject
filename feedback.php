@@ -2,7 +2,9 @@
 <html>
 <head>
     <?php 
+    require_once "functions/functions.php"; 
     $title = "Обратная связь";
+    $target = getAdvert();
     require_once "blocks/head.php" 
     ?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">

@@ -2,8 +2,10 @@
 <html>
 <head>
     <?php 
+    require_once "functions/functions.php"; 
     $title = "О нас";
-    require_once "blocks/head.php" 
+    require_once "blocks/head.php" ;
+    $target = getAdvert();
     ?>
 </head>
 <body>
